@@ -52,6 +52,9 @@ span.navbar-toggler-icon {
         margin: 0px;
         text-align: start !important;
     }
+    a.nav-link:hover {
+        border-bottom: none;
+    }    
 
   }
 
