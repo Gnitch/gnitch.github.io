@@ -25,7 +25,7 @@ function About() {
                             <span>
                                 <a href='https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=sujoydcunha@gmail.com' target="_blank" rel='noreferrer'><Image className= 'icon pad' src={gmail} /></a>
                                 <a href='https://github.com/Gnitch' target="_blank" rel='noreferrer'><Image className= 'icon pad' src={github} /></a>
-                                <a href='linkedin.com/in/sujoy-dcunha/'target="_blank" rel='noreferrer'><Image className= 'icon pad' src={linkedin} /></a>
+                                <a href='https://www.linkedin.com/in/sujoy-dcunha/'target="_blank" rel='noreferrer'><Image className= 'icon pad' src={linkedin} /></a>
                                 <a href='https://www.hackerrank.com/sujoydcunha'target="_blank" rel='noreferrer'><Image className= 'icon' src={hackerrank} /></a>                                                                                                     
                                 <a href='https://www.kaggle.com/gnitch'target="_blank" rel='noreferrer'><Image className= 'icon' src={kaggle} /></a>         
                             </span>                                                            
