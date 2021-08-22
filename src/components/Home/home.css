@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap');
+div.home-container {
+    background-image: url(../../Assets/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /* position: absolute;  */
+}
+a.home-link {
+    margin-left: 80px !important;
+}
+@media only screen and (max-width: 980px) {
+    .home-container{
+        background-image: none !important;
+        background: linear-gradient(to bottom, #1b1418, #1d171a, #1e1a1d, #201c1f, #221f21, #262426, #2b292a, #2f2e2f, #373738, #404040, #494949, #525252) !important;        
+    }
+    a.home-link {
+        margin-left: 0px !important;
+    }    
+}

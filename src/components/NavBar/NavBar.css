@@ -1,60 +1,17 @@
-a.nav-link{
-    color: white !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 22px;
-    margin: 5px;
+.navbar-span {
+    margin-right: 30px !important;
 }
-
-a.nav-link:hover {
-    border-bottom: 2px solid white;
+.navbar-link {
+    text-decoration: none !important;
+    color: #9E9E9E;
 }
-
-.icon-nav {
-    height: 20px;
-    width: 20px;
-    margin-right: 8px;
-    margin-bottom: 5px;
+a.navbar-link:hover{
+    color: #9E9E9E !important;
+    text-decoration: none !important;
+    border-bottom: 4px solid #8591c4;
 }
-
-.icon-home {
-    height: 20px;
-    width: 20px;
-    margin-bottom: 5px;    
-}
-
-button {
-    color: white !important;
-}
-
-span.navbar-toggler-icon {
-    color: white !important;
-    background: white;    
-}
-
 @media only screen and (max-width: 980px) {
-    .icon-nav {
-        height: 20px;
-        width: 20px;
-        margin-right: 5px;
-        margin-bottom: 5px;
-    }
-    
-    .icon-home {
-        height: 20px;
-        width: 20px;
-        margin-bottom: 5px;    
-    } 
-       
-    a.nav-link{
-        color: white !important;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 22px;
-        margin: 0px;
-        text-align: start !important;
-    }
-    a.nav-link:hover {
-        border-bottom: none;
-    }    
-
-  }
-
+    .MuiTypography-root {
+        font-size: 1em !important;
+    }   
+}

@@ -1,32 +1,54 @@
-.project-container {
+div.project-container {
+    background: black !important;
     width: 100%;
-    position:absolute;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white ;  
+    font-weight: 100 ;     
 }
-
-.title {
-    margin-top: 40px !important;
-    margin-bottom: 50px;
+img.project-img{
+    width: 500px;
+    height: 350px;
 }
-div.card {
-    margin-left: auto;
-    margin-right: auto;
-    height: 220px !important;
+.project-title {
+    text-align: left;    
+    font-size: 2em;
+    margin-top: 60px;
+    font-weight: 400 ;     
 }
-div.col-sm {
-    margin-bottom: 50px !important;
+.project-desc {
+    text-align: left;        
+    font-size: 1.1em;
+    font-weight: 100;     
+    margin-top: 20px;
+    padding-right: 10px;
+    margin-bottom: 20px;
 }
-img.icon {
+.project-stack {
+    text-align: left !important;        
+    font-size: 0.8em;
+    margin-right: 20px;
+    padding: 6px;
+    border: 1px solid grey;
+}
+.project-link {
     margin-right: 20px;
 }
-
-div.card {
-    -webkit-transition: 0.4s ease;
-    transition: 0.4s ease;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+@media only screen and (max-width: 956px) {
+    img.project-img{
+        width: 100vw;
+        height: 200px;
+    }  
+    .project-title{
+        padding-left: 10px;   
+    }  
+    .project-desc {
+        padding-left: 10px; 
+    }
+    .project-stack {
+        margin-left: 10px !important; 
+    }     
+    .project-link {
+        margin-left: 10px;
+    }     
 }
-  
-.col-sm:hover div.card {
-    -webkit-transform: scale(1.08);
-    transform: scale(1.1);
-}
-
