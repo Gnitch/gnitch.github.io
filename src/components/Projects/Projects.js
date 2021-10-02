@@ -26,7 +26,7 @@ function Projects() {
                             ))}
                             </p>
                             <p style={{'textAlign':'left'}}>
-                                <a href={project.link} className='project-link' target="_blank" rel='noreferrer'>
+                                <a href={project.link} className='project-link' target="_blank" rel='noreferrer' style={project.link === null ? {'display':'none'} : {'':''}}>
                                     <GoLinkExternal color={'white'} fontSize={'1.5em'} />
                                 </a>
                                 <a href={project.github} target="_blank" rel='noreferrer' style={project.github === null ? {'display':'none'} : {'':''}}>
