@@ -1,43 +1,78 @@
+import './Projects.css'
 import React from 'react'
 import Grid from '@material-ui/core/Grid';
-import {SiGithub} from 'react-icons/si';
+import {SiGithub, SiKaggle} from 'react-icons/si';
+import { BiLink } from "react-icons/bi";
 import {GoLinkExternal} from 'react-icons/go';
-import './Projects.css'
+
 import projects from './projectData';
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import Card from '@material-ui/core/Card';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
 
 function Projects() {
+    const useStyles = makeStyles((theme) => ({
+        root: {
+          flexGrow: 1,
+        },
+        paper: {
+          padding: theme.spacing(2),
+          textAlign: 'center',
+          color: theme.palette.text.secondary,
+        },
+      })); 
+
+      const classes = useStyles();
     return (
-        <div className='project-container' id='projects'>                  
+        
+        <div className={classes.root} id='projects'>  
+         <Container maxWidth="lg">
+         <Grid container spacing={5} >
+                
                 { projects.map((project,index) => (                    
-                    <Grid container style={{'marginBottom':'50px'}}>
-                        <Grid item md={6} className={'project-img'} >                            
-                            <img src={project.image} alt={project.title} className='project-img' />
-                        </Grid>
-                        <Grid item md={6}>  
-                            <h3 className='project-title'>{project.title}</h3>
-                            <h5 className='project-desc'>
-                                {project.desc}
-                            </h5>
-                            <p style={{'textAlign':'left'}}>
-                            {project.stack.map((tech)=>(                                
-                                <span className={'project-stack'} >
-                                    {tech}                                    
-                                </span>                                                                                                    
-                            ))}
-                            </p>
-                            <p style={{'textAlign':'left'}}>
-                                <a href={project.link} className='project-link' target="_blank" rel='noreferrer'>
-                                    <GoLinkExternal color={'white'} fontSize={'1.5em'} />
-                                </a>
-                                <a href={project.github} target="_blank" rel='noreferrer' style={project.github === null ? {'display':'none'} : {'':''}}>
-                                    <SiGithub color={'white'} fontSize={'1.5em'} />
-                                </a>
-                            </p>                            
-                        </Grid>      
-                    </Grid>                              
-                ))}                          
+                    <Grid item sm={4}>
+                            <Card className="proj-card">
+                                <CardContent>
+                                    <p className='proj-title'>{project.title}</p>
+                                    <p className='proj-stack'>{project.stack}</p>                                    
+                                    <p className='proj-desc'>
+                                    {project.desc}
+                                    </p>                                   
+                                </CardContent>
+                                <CardActions>
+                                <p style={{'textAlign':'left','marginLeft':'8px'}}>                                    
+                                    <a href={project.github} className='proj-link' target="_blank" rel='noreferrer' style={project.github === null ? {'display':'none'} : {'':''}}>
+                                    <SiGithub color={'black'} fontSize={'1.2em'} />
+                                    </a>
+                                    <a href={project.kaggle} className='proj-link' target="_blank" rel='noreferrer' style={project.kaggle === null ? {'display':'none'} : {'':''}}>
+                                    <SiKaggle color={'black'} fontSize={'1.2em'} />
+                                    </a>                                    
+                                    <a href={project.link} className='proj-link' target="_blank" rel='noreferrer' style={project.link === null ? {'display':'none'} : {'':''}}>
+                                        <BiLink color={'black'} fontSize={'1.5em'} />
+                                    </a>
+                                </p>                                 
+                                </CardActions>
+                            </Card>                                                   
+                    </Grid>         
+
+                        
+
+                ))} 
+                </Grid>                              
+
+        </Container>
         </div>
     )
 }
 
 export default Projects
+
+
+
+
+

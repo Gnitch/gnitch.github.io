@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2014/06/24/17/38/smoke-376543_960_720.jpg);  
+  
+}
 
 .App-logo {
   height: 40vmin;
