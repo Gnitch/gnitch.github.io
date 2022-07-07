@@ -1,54 +1,31 @@
-div.project-container {
-    background: black !important;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300&family=Playfair+Display+SC:wght@700&family=Roboto:wght@100;300;400&display=swap');
+ #projects {
+    padding-top: 80px !important;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
+    text-align: left;
     color: white ;  
-    font-weight: 100 ;     
 }
-img.project-img{
-    width: 500px;
-    height: 350px;
+.proj-title {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
 }
-.project-title {
-    text-align: left;    
-    font-size: 2em;
-    margin-top: 60px;
-    font-weight: 400 ;     
-}
-.project-desc {
-    text-align: left;        
+.proj-stack {
+    font-weight: lighter;
+    font-style: italic;
     font-size: 1.1em;
-    font-weight: 100;     
-    margin-top: 20px;
-    padding-right: 10px;
-    margin-bottom: 20px;
 }
-.project-stack {
-    text-align: left !important;        
-    font-size: 0.8em;
-    margin-right: 20px;
-    padding: 6px;
-    border: 1px solid grey;
+.proj-link{
+    margin-left: 5px;
+    margin-right: 5px ;
 }
-.project-link {
-    margin-right: 20px;
-}
-@media only screen and (max-width: 956px) {
-    img.project-img{
-        width: 100vw;
-        height: 200px;
-    }  
-    .project-title{
-        padding-left: 10px;   
-    }  
-    .project-desc {
-        padding-left: 10px; 
-    }
-    .project-stack {
-        margin-left: 10px !important; 
-    }     
-    .project-link {
-        margin-left: 10px;
-    }     
+.proj-desc {
+    margin-bottom: 0px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: black;
 }

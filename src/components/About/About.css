@@ -1,12 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display+SC:wght@700&family=Roboto:wght@100&display=swap');
+
 div.about-container {
-    background: black !important;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2014/06/24/17/38/smoke-376543_960_720.jpg);
     width: 100%;   
     color: white;
-    font-weight: 200;
+    font-weight: 400;
     text-align: center !important;
+}
+.grid-div {
+    background-color: black !important;
+    padding: 20px;
+}
+.name {
+    margin-bottom: 0px;
+    font-weight: 500;    
 }
 .about-desc {
     padding-left: 40px;
     padding-right: 40px;
+    font-weight: 300;
     /* margin-bottom: 150px; */
 }

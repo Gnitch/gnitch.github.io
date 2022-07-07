@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300&family=Playfair+Display+SC:wght@700&family=Roboto:wght@100;300;400&family=Splash&display=swap');
 div.home-container {
-    background-image: url(../../Assets/bg.png);
+    background-image: url(https://cdn.pixabay.com/photo/2014/06/24/17/38/smoke-376543_960_720.jpg);
+    /* background-color: black; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,15 +9,34 @@ div.home-container {
     height: 100vh;
     /* position: absolute;  */
 }
-a.home-link {
-    margin-left: 80px !important;
+p.home-name {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Splash', cursive;
+  	text-align: center;
+    color: whitesmoke;
+    /* font-weight: 900; */
+    font-size: 9em;
+    padding: 80px;
+    padding-top: 80px !important;
 }
+.home-avatar {
+    margin: 0px !important;
+}
+
+a.home-link {
+    margin-left: 0px !important;
+} 
 @media only screen and (max-width: 980px) {
-    .home-container{
-        background-image: none !important;
-        background: linear-gradient(to bottom, #1b1418, #1d171a, #1e1a1d, #201c1f, #221f21, #262426, #2b292a, #2f2e2f, #373738, #404040, #494949, #525252) !important;        
-    }
-    a.home-link {
-        margin-left: 0px !important;
-    }    
+    .home-grid {
+        margin-bottom: 50px !important;
+    }  
+    p.home-name{
+        font-size: 4.5em; 
+        margin-bottom: 60px;
+        padding: 10px;
+        text-align: center;
+      }      
 }
