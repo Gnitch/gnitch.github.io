@@ -4,13 +4,13 @@ import Box from '@material-ui/core/Box';
 import {SiGmail,SiLinkedin,SiGithub,SiKaggle,SiHackerrank} from 'react-icons/si';
 import medium from '../../Assets/medium.png'
 import './home.css'
-import './home.scss'
+// import './home.scss'
 
 function Home() {  
     return (
         <div className='home-container' id='home'>
             <p className='home-name'>
-                Sujoy <br></br> Dcunha
+                SUJOY <br></br> DCUNHA
             </p>
             <Grid container 
                   spacing={0}

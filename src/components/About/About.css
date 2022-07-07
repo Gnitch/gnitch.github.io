@@ -4,8 +4,11 @@ div.about-container {
     font-family: 'Abril Fatface', cursive;
     font-family: 'Playfair Display SC', serif;
     font-family: 'Roboto', sans-serif;
-    background-image: url(https://cdn.pixabay.com/photo/2014/06/24/17/38/smoke-376543_960_720.jpg);
-    width: 100%;   
+    /* background-image: url(https://wallpapercave.com/uwp/uwp2081246.jpeg); */
+    background-color: black;
+    /* background-attachment: fixed; */
+    /* background-repeat: no-repeat; */
+    /* width: 100%;    */
     color: white;
     font-weight: 400;
     text-align: center !important;
