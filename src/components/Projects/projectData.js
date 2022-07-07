@@ -27,25 +27,10 @@ const projects = [
         link: 'https://top.gg/bot/800964718155005952',        
     },
     {
-<<<<<<< HEAD
-        title: 'Anime Recommender',
-        image: 'recommend.png',
-        desc: "A Recommendation system for Animated shows.This Recommendation system is based on Content-Based Filtering and Hybrid filtering.",
-        stack: ['Django','scikit-surprise'],
-        github: 'https://github.com/Gnitch/Anime-Recommender',
-        link: null,           
-    },    
-    {
-        title: 'Anime Face Generation using DCGAN',
-        image: './dcgan.PNG',
-        desc: "GAN's based deep learning model to generate new images which mimic the dataset.",
-        stack: ['PyTorch'],
-=======
         title: 'Enhancing Anime Faces with SRGAN',
         image: "./srgan.PNG",
         desc: "GAN's based deep learning model to increase the resolution of images.",
         stack: 'PyTorch',
->>>>>>> dev
         github: null,
         kaggle: 'https://www.kaggle.com/gnitch/enhancing-anime-faces-with-srgan',
         link: null
