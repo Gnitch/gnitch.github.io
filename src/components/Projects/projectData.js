@@ -2,16 +2,16 @@ const projects = [
     {
         title: 'Progressive Face Aging',
         image: "./srgan.PNG",
-        desc: "A Django based web application which reports and keeps a track of missing people. It also shows how people will look after a certain years of age progression using CycleGan and SAM.",
+        desc: "A Web application which keeps a track of missing people and shows how people will look after age progression using CycleGan and SAM.",
         stack: 'Django, PyTorch',
         github: "https://github.com/Gnitch/Progressive-Face-Aging",
         kaggle: null,
         link: null
     },    
     {
-        title: 'Anime Face Generation using DCGAN',
+        title: 'Anime Face Generation with DCGAN',
         image: './dcgan.PNG',
-        desc: "GAN's based deep learning model to generate new images which mimic the dataset.",
+        desc: "GAN's based deep learning model to generate new images.",
         stack: 'PyTorch',
         github: null,
         kaggle: 'https://www.kaggle.com/gnitch/animefacegeneration-dcgan',   
@@ -20,7 +20,7 @@ const projects = [
     {
         title: 'Hitagi-chan (Discord Bot)',
         image: './bot.PNG',
-        desc: "A discord bot for Anime/Manga fans.This bot can search and recommend anime/manga.It gives a daily schedule of anime.",
+        desc: "A discord bot which can search/recommend anime and manga.It also gives a daily schedule of anime.",
         stack: 'Django REST, PostgreSQL',
         github: 'https://github.com/Gnitch/Hitagi-chan',
         kaggle: null,
@@ -38,7 +38,7 @@ const projects = [
     {
         title: 'Covid-19 Tracker',
         image: './covid.PNG',
-        desc: "Web app which displays covid-19 cases, deaths and recovered per country.",
+        desc: "React based web app which displays covid-19 cases, deaths and recovered people worldwide and for each country.",
         stack: 'React',
         github: 'https://github.com/Gnitch/Hitagi-chan',
         kaggle: null,
@@ -50,8 +50,8 @@ const projects = [
         desc: "Styling images Using Neural Style Transfer.",
         stack: 'PyTorch',
         github: null,
-        kaggle : null,
-        link: 'https://www.kaggle.com/gnitch/styling-anime-face',           
+        kaggle : 'https://www.kaggle.com/gnitch/styling-anime-face',
+        link: null,           
     },
 ]
 

@@ -16,7 +16,7 @@ function App() {
         <Home />
         <Projects />
         <About /> 
-        <Dots color={'#b1b1b8'} background={'#131314'} />          
+        <Dots color={'#b1b1b8'} background={'#131314'} time={500}/>          
       </div> 
     </React.Fragment>    
       

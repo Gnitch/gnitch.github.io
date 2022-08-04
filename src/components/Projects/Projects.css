@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300&family=Playfair+Display+SC:wght@700&family=Roboto:wght@100;300;400&display=swap');
  #projects {
-    /* background-image: url(https://wallpapercave.com/uwp/uwp2081246.jpeg); */
-    background-color: black;
-    /* background-position: center; */
-    /* background-repeat: no-repeat;     */
-    padding-top: 80px !important;
-    /* width: 100%; */
-    padding: 20px;
+    background-color: #3A072B;
+    padding-top: 85px !important;
     text-align: left;
-    color: white ;  
+    /* height: 100vh !important; */
+}
+.proj-card {
+    height: 280px;
+    margin-bottom: 20px;
 }
 .proj-title {
     font-family: 'Abril Fatface', cursive;
@@ -31,5 +30,4 @@
     margin-bottom: 0px;
     font-size: 1.1em;
     font-weight: 500;
-    color: black;
 }

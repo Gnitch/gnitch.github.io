@@ -11,6 +11,7 @@ span.brand {
     margin-left: 8px;
     color: whitesmoke;  
 }
+
 .avatar {
     margin-left: 30px;
 }
@@ -28,7 +29,7 @@ span.brand {
     margin-right: 50px;
 }
 a.navbar-link:hover{
-    color: black !important;
+    color: #AF2444 !important;
     text-decoration: none !important;
 }
 

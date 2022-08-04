@@ -17,14 +17,6 @@ import Container from '@material-ui/core/Container';
 
 function Projects() {
     const useStyles = makeStyles((theme) => ({
-        // root: {
-        //   flexGrow: 1,
-        // },
-        // paper: {
-        //   padding: theme.spacing(2),
-        //   textAlign: 'center',
-        //   color: theme.palette.text.secondary,
-        // },
       })); 
 
       const classes = useStyles();
@@ -32,8 +24,7 @@ function Projects() {
         
         <div className={classes.root} id='projects'>  
          <Container maxWidth="lg">
-         <Grid container spacing={5} >
-                
+         <Grid container spacing={5} >                
                 { projects.map((project,index) => (                    
                     <Grid item sm={4}>
                             <Card className="proj-card">

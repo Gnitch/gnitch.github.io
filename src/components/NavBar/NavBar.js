@@ -37,7 +37,7 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="fixed" className='nav-wid' style={{background: 'black',boxShadow: 'none'}} >
+      <AppBar position="fixed" className='nav-wid' style={{background: '#1C0E25',boxShadow: 'none'}} >
         <Toolbar>
 		<Typography align='left' variant="h5" className={classes.title}>
 			<a className='navbar-link' href='#home' rel='noreferrer'> 				
@@ -52,7 +52,9 @@ export default function ButtonAppBar() {
         		anchorEl={anchorEl}
         		keepMounted
         		open={Boolean(anchorEl)}
-        		onClose={handleClose}>
+        		onClose={handleClose}
+            BagroundColor={"#AF2444"}>
+            
         	<MenuItem onClick={handleClose}>
 				<a className='navbar-link' href='#home' rel='noreferrer'>
 				Home</a>
